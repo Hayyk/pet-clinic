@@ -21,15 +21,17 @@ You need to have following programs installed in your $PATH:
 ## AWS Credentials
 You need to provide AWS credentials as env variables as follows:
 
-$ export AWS_ACCESS_KEY_ID="anaccesskey"
-$ export AWS_SECRET_ACCESS_KEY="asecretkey"
-$ export AWS_DEFAULT_REGION="us-east-1"
-
+```
+export AWS_ACCESS_KEY_ID="anaccesskey"
+export AWS_SECRET_ACCESS_KEY="asecretkey"
+export AWS_DEFAULT_REGION="us-east-1"
+```
 ## Run
-
-$ terraform init
-$ terraform plan --out run
-$ terraform apply "run"
+```
+terraform init
+terraform plan --out run
+terraform apply "run"
+```
 
 ##View
 
@@ -37,6 +39,9 @@ At the end of terraform apply application url will be shown as output
 
 ## References
 [Terraform Docs](https://www.terraform.io/docs/)
+
 [terraform-ecr-docker-build-module](https://github.com/onnimonni/terraform-ecr-docker-build-module)
+
 [spring-petclinic](https://github.com/spring-projects/spring-petclinic)
+
 [terraform-ecs-fargate](https://github.com/bradford-hamilton/terraform-ecs-fargate)
