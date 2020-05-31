@@ -33,7 +33,7 @@ terraform plan --out run
 terraform apply "run"
 ```
 
-##View
+## View application
 
 At the end of terraform apply application url will be shown as output
 
